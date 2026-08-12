@@ -22,22 +22,56 @@ export default function RootLayout({ children }) {
     <html lang="pt-BR" className={`${geistSans.variable} ${geistMono.variable}`}>
       <body>
         <header className="header-tier">
-          <img src="/imagens/logo.svg" alt="Tier 11 Logo" width={120} height={40} className="header-logo" />
+          <Link href={"/"}><img src="/imagens/logo.svg" alt="Tier 11 Logo" width={120} height={40} className="header-logo" /></Link>
           <nav>
             <Link href={"/sobre"}>What we do</Link>
-            <Link href={"/blog"}>Blog</Link>
+            <Link href={"/sobre/blog"}>Blog</Link>
             <Link href={"/podcast"}>Podcast</Link>
             <Link href={"/careers"}>Careers</Link>
             <Link href={"#"} className="cta">Work with us</Link>
           </nav>
         </header>
         {children}
-        <footer>
-          <ul>
-            <li>Instagram</li>
-            <li>Facebook</li>
-            <li>LinkedIn</li>
-          </ul>
+        <footer className="footer-secao">
+          <div className="container footer-conteudo">
+
+            <div className="footer-item">
+              <img src="/imagens/facebook.svg" alt="Facebook" width={120} height={120} className="footer-img" />
+              <span className="footer-legenda">Facebook Premier</span>
+              <span className="footer-legenda">Level Agency Partner</span>
+            </div>
+
+            <div className="footer-item">
+              <img src="/imagens/google.svg" alt="Google" width={120} height={120} className="footer-img" />
+              <span className="footer-legenda">Google Endorsed</span>
+              <span className="footer-legenda">Marketing Partner</span>
+            </div>
+
+            <div className="footer-item">
+              <img src="/imagens/forbes.svg" alt="Forbes" width={120} height={120} className="footer-img" />
+              <span className="footer-legenda">Forbes Agency</span>
+              <span className="footer-legenda">Council Member</span>
+            </div>
+
+            <div className="footer-item">
+              <img src="/imagens/inc5000.svg" alt="Inc. 5000" width={120} height={120} className="footer-img" />
+              <span className="footer-legenda">Inc. 5000</span>
+              <span className="footer-legenda">Fastest growing company</span>
+            </div>
+
+            <div className="footer-item">
+              <span className="metrica-valor">$100M</span><br />
+              <span className="footer-legenda">In annual</span>
+              <span className="footer-legenda">Digital Ad Spend</span>
+            </div>
+
+            <div className="footer-item">
+              <span className="metrica-valor">15+</span><br />
+              <span className="footer-legenda">Years of Facebook</span>
+              <span className="footer-legenda">Advertising Experience</span>
+            </div>
+
+          </div>
         </footer>
       </body>
     </html>

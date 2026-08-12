@@ -1,4 +1,4 @@
-export default function Empresa(){
+export default function Podcast(){
     return(
         <>
             <h1>Página EMPRESA!</h1>
