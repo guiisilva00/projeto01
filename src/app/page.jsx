@@ -4,17 +4,6 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <>
-      <header className="header-tier">
-        <Image src="/imagens/logo.svg" alt="Tier 11 Logo" width={120} height={40} className="header-logo" />
-        <nav>
-          <a href="#">What we do</a>
-          <a href="#">Blog</a>
-          <a href="#">Podcast</a>
-          <a href="#">Careers</a>
-          <a href="#" className="cta">Work with us</a>
-        </nav>
-      </header>
-
       <section className="container hero-secao">
         <div className="hero">
           <h1 className="principal-title">Unlock your business Potential With Facebook & Instagram Advertising</h1>
