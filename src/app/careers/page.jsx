@@ -9,7 +9,7 @@ export default function Careers() {
         <div className="careers-lista">
           <article className="career-item">
             <p className="career-titulo">
-              <a href="#">Ralph Burns — Founder & CEO</a>
+              <a href="#">Beatriz Moraes — Founder & CEO</a>
             </p>
             <p className="p-careers">
               Pioneer in digital media buying with over 15 years of experience scaling growth-stage companies through Meta Ads and performance marketing.
@@ -36,7 +36,7 @@ export default function Careers() {
         </div>
 
         <div className="careers-imagem">
-          <img src="https://placehold.co/600x400" alt="Tier 11 Team" />
+          <img src="/imagens/beatriz.png" alt="Tier 11 Team" />
         </div>
       </div>
     </section>
