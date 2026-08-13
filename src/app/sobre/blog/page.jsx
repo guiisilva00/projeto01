@@ -36,7 +36,7 @@ export default function Blog() {
                 </div>
 
                 <div className="blog-imagem">
-                    <img src="https://placehold.co/600x400" alt="Blog Preview" />
+                    <img src="/imagens/blog.png" alt="Blog Preview" />
                 </div>
             </div>
         </section>
