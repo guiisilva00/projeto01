@@ -36,7 +36,7 @@ export default function Podcast() {
         </div>
 
         <div className="podcast-imagem">
-          <img src="https://placehold.co/600x400" alt="Tier 11 Podcast Cover" />
+          <img src="/imagens/podcast.png" alt="Tier 11 Podcast Cover" />
         </div>
       </div>
     </section>
