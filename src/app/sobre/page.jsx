@@ -17,7 +17,7 @@ export default function Sobre() {
         </div>
 
         <div className="sobre-imagem">
-          <img src="https://placehold.co/600x400" alt="What We Do" />
+          <img src="imagens/mulherTablet.png" alt="What We Do" />
         </div>
       </div>
     </section>
